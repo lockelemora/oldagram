@@ -1,0 +1,100 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: blue solid;
+    background: pink;
+}
+
+main{
+    width: 375px;    
+    margin: 0 auto;
+    background: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    margin: 0;
+    align-items: center;
+    border-bottom: 2px solid #C6C6C6
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    font-family: source sans pro;
+    
+}
+
+
+.logo{
+    height: 50px;
+}
+
+.img-header .logo{
+    height: 50px;
+}
+
+.avatar{
+    height: 34px;
+    border-radius: 50%;
+
+}
+
+.profile-pic{
+    height: 34px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-text{
+    height: 34px;
+    width: 100%;
+    padding-top: 14px;
+    line-height: 4px;
+}
+
+.name{
+    margin: 0;
+}
+
+.location{
+    //margin-bottom: 0px;
+}
+
+h2{
+    font-size: 13px;
+    font-weight: 700px;
+    font-family: source sans pro;
+}
+
+h3{
+    font-size: 12px;    
+    font-weight: regular;
+    font-family: source sans pro;
+}
+
+.post{
+    width: 100%;
+}
+
+.icons{
+    height: 23px;
+}
+
+.reactions{
+    padding: 20px 10px 12px 10px;
+    margin: 0;
+}
+
+.engagement{
+    padding: 0px 10px 12px 10px;
+    margin: 0;
+}
+
+.icons:hover{
+    height: 25px;
+}
